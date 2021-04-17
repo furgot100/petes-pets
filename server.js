@@ -54,6 +54,6 @@ app.use((err, req, res, next) => {
 
 module.exports = app;
 
-
+app.locals.PUBLIC_STRIPE_API_KEY = process.env.PUBLIC_STRIPE_API_KEY
 
 
